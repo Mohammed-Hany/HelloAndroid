@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/udacity"
+        android:layout_weight="1"
+        android:background="@drawable/udacity">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="@dimen/MarginAndPadding"
+            android:textSize="@dimen/Textthelargest"
+            android:textColor="@android:color/white"
+            android:text="@string/title" />
+
+        <ImageView
+            android:id="@+id/capicon"
+            android:layout_width="@dimen/CapIcon_Width_Height"
+            android:layout_height="@dimen/CapIcon_Width_Height"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/graduation"
+            android:layout_above="@id/title" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:background="@color/SpecialGray">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="@dimen/WebIcon_Width_Height"
+                android:layout_height="@dimen/WebIcon_Width_Height"
+                android:layout_marginLeft="@dimen/MarginAndPadding"
+                android:layout_marginRight="@dimen/MarginAndPadding"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/webicon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:autoLink="web"
+                android:textSize="@dimen/Textlarge"
+                android:textColorLink="@android:color/white"
+                android:text="@string/website"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="@dimen/LocationIcon_Width_Height"
+            android:layout_height="@dimen/LocationIcon_Width_Height"
+            android:layout_marginLeft="@dimen/MarginAndPadding"
+            android:layout_marginRight="@dimen/MarginAndPadding"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/locationicon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/Textbetween"
+            android:textColor="@android:color/white"
+            android:autoLink="map"
+            android:textColorLink="@android:color/white"
+            android:text="@string/address"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="@dimen/PhoneIcon_Width_Height"
+            android:layout_height="@dimen/PhoneIcon_Width_Height"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/MarginAndPadding"
+            android:layout_marginRight="@dimen/MarginAndPadding"
+            android:src="@drawable/phoneicon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/Textlarge"
+            android:textColor="@android:color/white"
+            android:text="@string/phone"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

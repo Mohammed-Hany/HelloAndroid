@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Textlarge">21sp</dimen>
+    <dimen name="Textbetween">20sp</dimen>
+    <dimen name="Textsmall">19sp</dimen>
+    <dimen name="Textthelargest">24sp</dimen>
+    <dimen name="PhoneIcon_Width_Height">30dp</dimen>
+    <dimen name="LocationIcon_Width_Height">35dp</dimen>
+    <dimen name="CapIcon_Width_Height">45dp</dimen>
+    <dimen name="CapIconLand_Width_Height">38dp</dimen>
+    <dimen name="WebIcon_Width_Height">30dp</dimen>
+    <dimen name="MarginAndPadding">10dp</dimen>
+
+</resources>
