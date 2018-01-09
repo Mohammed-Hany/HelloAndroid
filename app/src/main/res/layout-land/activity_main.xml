@@ -50,8 +50,8 @@
             android:layout_weight="1">
 
             <ImageView
-                android:layout_width="@dimen/WebIcon_Width_Height"
-                android:layout_height="@dimen/WebIcon_Width_Height"
+                android:layout_width="@dimen/IconSize"
+                android:layout_height="@dimen/IconSize"
                 android:layout_marginLeft="@dimen/MarginAndPadding"
                 android:layout_marginRight="@dimen/MarginAndPadding"
                 android:layout_gravity="center_vertical"
@@ -73,8 +73,8 @@
             android:layout_weight="1">
 
             <ImageView
-                android:layout_width="@dimen/LocationIcon_Width_Height"
-                android:layout_height="@dimen/LocationIcon_Width_Height"
+                android:layout_width="@dimen/IconSize"
+                android:layout_height="@dimen/IconSize"
                 android:layout_marginLeft="@dimen/MarginAndPadding"
                 android:layout_marginRight="@dimen/MarginAndPadding"
                 android:layout_gravity="center_vertical"
@@ -99,8 +99,8 @@
             android:layout_weight="1">
 
             <ImageView
-                android:layout_width="@dimen/PhoneIcon_Width_Height"
-                android:layout_height="@dimen/PhoneIcon_Width_Height"
+                android:layout_width="@dimen/IconSize"
+                android:layout_height="@dimen/IconSize"
                 android:layout_gravity="center_vertical"
                 android:layout_marginLeft="@dimen/MarginAndPadding"
                 android:layout_marginRight="@dimen/MarginAndPadding"
