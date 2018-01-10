@@ -55,7 +55,7 @@
                 android:layout_marginLeft="@dimen/MarginAndPadding"
                 android:layout_marginRight="@dimen/MarginAndPadding"
                 android:layout_gravity="center_vertical"
-                android:src="@drawable/webicon"/>
+                android:src="@drawable/web"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -78,7 +78,7 @@
             android:layout_marginLeft="@dimen/MarginAndPadding"
             android:layout_marginRight="@dimen/MarginAndPadding"
             android:layout_gravity="center_vertical"
-            android:src="@drawable/locationicon"/>
+            android:src="@drawable/map"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -104,7 +104,7 @@
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="@dimen/MarginAndPadding"
             android:layout_marginRight="@dimen/MarginAndPadding"
-            android:src="@drawable/phoneicon"/>
+            android:src="@drawable/phoneclassic"/>
 
         <TextView
             android:layout_width="wrap_content"
